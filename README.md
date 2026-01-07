@@ -1,4 +1,4 @@
-# Toy DataBase 🧸
+# Toy DataBase 
 
 
 > **"What I cannot create, I do not understand."** — Richard Feynman
