@@ -5,7 +5,8 @@
 
 **LSM-StorageEngine** 是一个高性能、持久化的键值（Key-Value）存储引擎，基于 **LSM-Tree (Log-Structured Merge-Tree)** 架构设计并完全使用 Modern C++ (C++17) 实现。
 
-本项目旨在剥离 SQL 解析、网络协议等外围逻辑，**深入探索数据库内核最底层的存储与检索机制**。是一个具备工业级核心组件（WAL、MemTable、SSTable、Compaction）的轻量级存储库。
+本项目旨在剥离 SQL 解析、网络协议等外围逻辑，**深入探索数据库内核最底层的存储与检索机制**。
+是一个具备工业级核心组件（WAL、MemTable、SSTable、Compaction）的轻量级存储库。
 
 ---
 
@@ -85,7 +86,7 @@ int main() {
 }
 ```
 
-## 技术扩展点 (Advanced Features)
+## 技术扩展点
 
 除了基础功能，本项目还涵盖了以下进阶 C++ 工程实践：
 
