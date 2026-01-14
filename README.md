@@ -56,9 +56,9 @@ make -j4
 
 # 4. 运行示例/测试
 ./lsm_test
+```
 
-
-### 使用示例 (API Example)
+### API使用示例
 ```cpp
 #include "db.h"
 
